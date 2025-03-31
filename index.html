@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Travel Website</title>
+</head>
+<body>
+    <nav>
+        <div class="logo"><a href="#">Uncharted Journey Travels</a></div>
+        <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <!-- <li><a href="#about">About</a></li> -->
+          <li><a href="#service">Service</a></li>
+          <li><a href="#destination">Destination</a></li>
+          <li class="dropdown">
+            <a href="#Page">Pages<i class="fas fa-caret-down"></i></a>
+            <div class="dropdowm-menu">
+              <ul>
+                <li><a href="#package">Package</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#testimonial">Testimonial</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="home-container" id="home">
+        <div class="container">
+            <div class="content">
+                <h1>DISCOVERING THE<br>UNCHARTED WORLD</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Minus omnis error placeat possimus porro ut unde quo, mollitia officiis aperiam repellendus totam aliquid
+                     maxime odio, dolores, fugiat dolorem eveniet accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                     Sequi magni in enim atque deleniti eum iste, fugiat, dolorem soluta maiores odit illo optio debitis corporis nihil
+                      voluptatibus natus voluptatum quia?</p>
+                <div class="btn">
+                    <button class="read-more">Read More</button>
+                    <button class="our-blogs">Our Blogs</button>
+                </div>
+                <!-- <div class="chevrons">
+                    <span class="chev-left"></span>
+                    <span class="chev-right"></span>
+                </div> -->
+            </div>
+        </div>
+        <div class="form-container">
+            <form action="">
+                <h4>Where you want to go?</h4>
+                <div class="form-content">
+                    <label for="destination">Destination</label>
+                    <input type="text"
+                    name="destination"
+                    id="destination"
+                    placeholder="Enter destination">
+                </div>
+                <div class="form-content">
+                    <label for="date">Date</label>
+                    <input type="date"
+                    name="date"
+                    id="date"
+                    placeholder="dd/mm/yyyy">
+                </div>
+                <button type="submit">check Travel Package</button>
+            </form>
+        </div>
+    </div> 
+    
+    <section class="destination" id="destination">
+        <div class="destination-container">
+          <h2 class="destination-header">Top Destinations</h2>
+          <p class="destination-description">
+            Find out what are the best destinations in the world
+          </p>
+          <div class="destination-grid">
+            <div class="destination-card">
+              <img src="images/popular-1.jpg" alt="San miguel, italy" />
+              <div class="destination-content">Italy</div>
+            </div>
+            <div class="destination-card">
+              <img src="images/popular-2.jpg" alt="Burj khalifa, dubai" />
+              <div class="destination-content">Dubai</div>
+            </div>
+            <div class="destination-card">
+              <img src="images/popular-3.jpg" alt="Kyoto temple, japan" />
+              <div class="destination-content">Japan</div>
+            </div>
+            <div class="destination-card">
+                <img src="images/popular4.jpg" alt="destination" />
+                <div class="destination-content">Bhutan</div>
+            </div>
+          </div>
+          <div class="destination-btn">
+            <button>View More</button>
+          </div>
+        </div>
+      </section>
+    
+
+    <section class="service-container" id="service">
+        <div class="content">
+            <h2>Our Services</h2>
+            <p>We provide a wide range of services to make your journey seamless, enjoyable, and memorable. Explore what we have to offer.</p>
+        </div>
+        <div class="service-grid">
+            <div class="service-item">
+                <i class="fa-solid fa-plane"></i>
+                <h3>Flight Booking</h3>
+                <p>Find the best deals and book your flights with ease.</p>
+            </div>
+            <div class="service-item">
+                <i class="fa-solid fa-hotel"></i>
+                <h3>Hotel Reservations</h3>
+                <p>Stay in top-rated accommodations wherever you travel.</p>
+            </div>
+            <div class="service-item">
+                <i class="fa-solid fa-route"></i>
+                <h3>Custom Tours</h3>
+                <p>Plan tailor-made tours to suit your preferences.</p>
+            </div>
+            <div class="service-item">
+                <i class="fa-solid fa-umbrella-beach"></i>
+                <h3>Holiday Packages</h3>
+                <p>Choose from a range of curated holiday packages.</p>
+            </div>
+            <div class="service-item">
+                <i class="fa-solid fa-car"></i>
+                <h3>Transportation</h3>
+                <p>Book convenient transport options for your trip.</p>
+            </div>
+            <div class="service-item">
+                <i class="fa-solid fa-passport"></i>
+                <h3>Visa Assistance</h3>
+                <p>Get help with visa applications and documentation.</p>
+            </div>
+            <div class="service-item">
+                <i class="fa-solid fa-passport"></i>
+                <h3>Visa Assistance</h3>
+                <p>Get help with visa applications and documentation.</p>
+            </div>
+            <div class="service-item">
+                <i class="fa-solid fa-passport"></i>
+                <h3>Visa Assistance</h3>
+                <p>Get help with visa applications and documentation.</p>
+            </div>
+        </div>
+        <div class="service-btn">
+            <button  class="cta">View All Services</button>
+        </div>
+    </section>
+
+    <section class="package-container" id="package">
+        <h2 class="package-header">Featured Packages</h2>
+        <p class="package-description">
+          We will help you find the trip that's perfect for you!
+        </p>
+        <div class="package-box">
+          <div class="package-card">
+            <img src="images/package-1.jpeg" alt="package" />
+            <div class="package-card-details">
+              <h4>Thailand Tour</h4>
+              <p>
+                Explore the vibrant culture and stunning landscapes of Thailand's
+                bustling cities.
+              </p>
+              <div class="package-review">
+                <span class="stars">★★★★☆</span>
+                <span class="review-count">(45 Reviews)</span>
+              </div>
+              <div class="package-actions">
+                <button class="package-btn">Book Now</button>
+                <h3>$999</h3>
+              </div>
+            </div>
+          </div>
+          <div class="package-card">
+            <img src="images/package-2.jpg" alt="package" />
+            <div class="package-card-details">
+              <h4>Paris Tour</h4>
+              <p>
+                Immerse yourself in the rich culture and stunning landscapes of
+                Laos.
+              </p>
+              <div class="package-review">
+                <span class="stars">★★★★★</span>
+                <span class="review-count">(78 Reviews)</span>
+              </div>
+              <div class="package-actions">
+                <button class="package-btn">Book Now</button>
+                <h3>$799</h3>
+              </div>
+            </div>
+          </div>
+          <div class="package-card">
+            <img src="images/package-3.jpg" alt="package" />
+            <div class="package-card-details">
+              <h4>Singapore Tour</h4>
+              <p>
+                Experience the vibrant blend of culture, cuisine, and cutting-edge
+                architecture.
+              </p>
+              <div class="package-review">
+                <span class="stars">★★★☆☆</span>
+                <span class="review-count">(32 Reviews)</span>
+              </div>
+              <div class="package-actions">
+                <button class="package-btn">Book Now</button>
+                <h3>$850</h3>
+              </div>
+            </div>
+          </div>
+          <div class="package-card">
+            <img src="images/package-4.jpg" alt="package" />
+            <div class="package-card-details">
+              <h4>Tokyo Tour</h4>
+              <p>
+                Experience the vibrant blend of culture, cuisine, and cutting-edge
+                architecture.
+              </p>
+              <div class="package-review">
+                <span class="stars">★★★☆☆</span>
+                <span class="review-count">(25 Reviews)</span>
+              </div>
+              <div class="package-actions">
+                <button class="package-btn">Book Now</button>
+                <h3>$780</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="package-card">
+            <img src="images/package-5.jpg" alt="package" />
+            <div class="package-card-details">
+              <h4>Maldives Tour</h4>
+              <p>
+                Experience the vibrant blend of culture, cuisine, and cutting-edge
+                architecture.
+              </p>
+              <div class="package-review">
+                <span class="stars">★★★☆☆</span>
+                <span class="review-count">(25 Reviews)</span>
+              </div>
+              <div class="package-actions">
+                <button class="package-btn">Book Now</button>
+                <h3>$780</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="package-card">
+            <img src="images/package-6.jpg" alt="package" />
+            <div class="package-card-details">
+              <h4>Bali Tour</h4>
+              <p>
+                Experience the vibrant blend of culture, cuisine, and cutting-edge
+                architecture.
+              </p>
+              <div class="package-review">
+                <span class="stars">★★★☆☆</span>
+                <span class="review-count">(25 Reviews)</span>
+              </div>
+              <div class="package-actions">
+                <button class="package-btn">Book Now</button>
+                <h3>$780</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>    
+
+    <section class="testimonial-container" id="testimonial">
+      <div class="testimonial-content">
+        <div class="testimonial-header">
+          <h1>Clients Testimonial</h1>
+          <p>What they're Saying</p>
+        </div>
+
+        <div class="testimonial-box">
+          <div class="testimonial-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQBDox39ubeWBKcvnjRzPyPY2-z9AUIlNv_w&s" alt="">
+            <div class="testimonial-info">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi impedit, 
+                vero voluptate, ex nisi reprehen</p>
+                <h6>Emily Richards</h6>
+                <div class="testimonial-rating">
+                  <span class="stars">★★★☆☆</span>
+                </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <img src="https://www.shutterstock.com/image-photo/studio-close-portrait-happy-smiling-260nw-2153541715.jpg" alt="">
+            <div class="testimonial-info">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi impedit, 
+                vero voluptate, ex nisi reprehen</p>
+                <h6>Emily Richards</h6>
+                <div class="testimonial-rating">
+                  <span class="stars">★★★☆☆</span>
+                </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLXGVOByPdPaKy75tt5W3ege8iewGhx8GD2DrND8oD1iGyNiU4jjQSL9aktTukOXSETA&usqp=CAU" alt="">
+            <div class="testimonial-info">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi impedit, 
+                vero voluptate, ex nisi reprehen</p>
+                <h6>Emily Richards</h6>
+                <div class="testimonial-rating">
+                  <span class="stars">★★★☆☆</span>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-top">
+          <div class="footer-brand">
+              <a href="#" class="logo">
+                  <img src="images/bg.jpg" alt="Logo">
+              </a>
+              <p class="footer-text">Explore the world with our best travel services. Your adventure starts here!</p>
+              <div class="social-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+          </div>
+          <div class="footer-links">
+              <h3>Quick Links</h3>
+              <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#destination">Destinations</a></li>
+                  <li><a href="#package">Travel Packages</a></li>
+                  <li><a href="#testimonial">Testimonials</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+          </div>
+          <div class="footer-contact" id="contact">
+              <h3>Contact Us</h3>
+              <p class="contact-text">Feel free to get in touch with us</p>
+              <div class="contact-item">
+                  <i class="fas fa-phone"></i>
+                  <a href="tel:+123456789" class="contact-link">+123 456 789</a>
+              </div>
+              <div class="contact-item">
+                  <i class="fas fa-envelope"></i>
+                  <a href="mailto:info@example.com" class="contact-link">info@example.com</a>
+              </div>
+              <div class="contact-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <address>123 Main Street, City, Country</address>
+              </div>
+          </div>
+          <form action="#" class="footer-form">
+              <h3>Subscribe to Newsletter</h3>
+              <p class="form-text">Get travel updates and offers directly in your inbox.</p>
+              <input type="email" class="input-field" placeholder="Enter your email" required>
+              <button type="submit" class="btn">Subscribe</button>
+          </form>
+      </div>
+      <div class="footer-bottom">
+          <p class="copyright">
+              © 2024 All rights reserved | Created by <a href="#">Your Company</a>
+          </p>
+          <ul class="footer-bottom-list">
+              <li><a href="#" class="footer-bottom-link">Privacy Policy</a></li>
+              <li><a href="#" class="footer-bottom-link">Terms of Service</a></li>
+              <li><a href="#" class="footer-bottom-link">Sitemap</a></li>
+          </ul>
+      </div>
+  </footer>
+  
+  
+  
+  
+    <script src="script.js"></script>
+</body>
+</html>
